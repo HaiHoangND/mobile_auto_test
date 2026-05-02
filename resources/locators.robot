@@ -12,7 +12,7 @@ ${TAB_MENU}                accessibility_id=open menu
 # ============ Catalog (Products) screen ============
 ${PRODUCT_SCREEN}          accessibility_id=products screen
 #${PRODUCT_FIRST_ITEM}      accessibility_id=store item
-${PRODUCT_FIRST_ITEM}      xpath=(//android.view.ViewGroup[@content-desc="store item"])[1]
+${PRODUCT_FIRST_ITEM}      android=new UiSelector().description("store item").instance(0)
 ${PRODUCT_TITLE_BACKPACK}  xpath=//*[@text="Sauce Labs Backpack"]
 
 # ============ Product detail screen ============
