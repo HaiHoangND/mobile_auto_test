@@ -1,0 +1,26 @@
+# Python / Virtual Environment
+.venv/
+venv/
+ENV/
+__pycache__/
+*.py[cod]
+
+# Robot Framework results
+# Loại bỏ thư mục results chứa log.html, report.html, output.xml
+results/
+
+# Android Apps
+# Không nên push file .apk lên Git vì dung lượng lớn và dễ lỗi thời
+apps/*.apk
+
+# IDE Settings (PyCharm / VS Code)
+.idea/
+.vscode/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Temporary files
+*.tmp
+*.log
